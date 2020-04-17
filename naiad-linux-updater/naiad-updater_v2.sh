@@ -5,20 +5,17 @@
 (
 # =================================================================
 echo "# apt-updateを実行します" ; sleep 2
-sudo apt-get update 
-
+pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY apt-get update
 # =================================================================
 echo "25"
-echo "# パッケージをアップデートしています" ; sleep 2
-sudo apt-get upgrade -y
+echo "# ディレクトリを準備しています" ; sleep 2
+cd
+mkdir .naiad-updater
+cd .naiad-updater
 
 # =================================================================
 echo "50"
 echo "# アップデートの準備をしています" ; sleep 2
-sudo apt-get autoremove -y
-cd
-mkdir .naiad-updater
-cd .naiad-updater
 rm -rf tmp
 mkdir tmp
 cd tmp
