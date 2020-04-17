@@ -30,7 +30,7 @@ git clone https://github.com/nexryai/naiad-linux-update
 echo "99"
 echo "# naiad linux 独自機能をアップデートしています" ; sleep 2
 cd naiad-linux-update
-bash update_v2.sh
+bash update-v2.sh
 
 # =================================================================
 echo "# All finished." ; sleep 2
