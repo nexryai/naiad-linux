@@ -14,3 +14,6 @@ GNU GPL v2.0
 
 ## naiad store
 naiad store
+
+## grub_background
+live diskのgrub背景
