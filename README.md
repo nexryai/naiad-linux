@@ -21,6 +21,8 @@ live diskのgrub背景
 ### /usr/naiad
 naiad store
 
+https://drive.google.com/drive/folders/1dC20qTJO6xxCIpI7fllf3AbI2lANPWP8?usp=sharing
+
 ### /usr/share/lightdm-webkit/themes
 lightdm-webkit2テーマ
 
