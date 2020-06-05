@@ -1,5 +1,6 @@
 # naiad-linux
 mateデスクトップ採用のエレガントで軽量で先進的なLinux
+
 Vboxでは作動しません
 # ライセンス
 GNU GPL 
