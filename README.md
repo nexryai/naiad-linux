@@ -4,10 +4,6 @@ xfceデスクトップ採用のエレガントで軽量で先進的なLinux
 Vboxでは作動しません
 # ライセンス
 GNU GPL 
-## naiad-linux-updater
-~~naiad linuxをアップデートするウィザード。最新のアップデートスクリプトを https://github.com/nexryai/naiad-linux-update から取得し実行します~~ 
-セキュリティに問題があるため廃止
-
 
 ## grub_background
 live diskのgrub背景
@@ -25,10 +21,7 @@ naiad store
 
 https://drive.google.com/drive/folders/1dC20qTJO6xxCIpI7fllf3AbI2lANPWP8?usp=sharing
 
-### /usr/share/lightdm-webkit/themes
-~~lightdm-webkit2テーマ~~
 
-廃止
 
 ### /usr/share/xfce4/backdrops
 壁紙
