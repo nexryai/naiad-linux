@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    powerline-shell=powerline_shell:main
+    
