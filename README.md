@@ -1,7 +1,6 @@
 # naiad-linux
-xfceデスクトップ採用のエレガントで軽量で先進的なLinux
+xfceデスクトップ採用のエレガントで軽量で先進的なLinux。AlterISOを使用してビルドします
 
-開発者の徹夜によって、Vboxでも作動するようになりました
 # ライセンス
 GNU GPL 
 
