@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1454" x1="76.043" x2="76.043" y1="24.482" y2="20.084" gradientTransform="matrix(7.5637 0 0 7.5637 -543.5 -123.14)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dde8ed" offset="0"/>
+   <stop stop-color="#dee6ee" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1545" x1="70.795" x2="81.378" y1="20.512" y2="20.512" gradientTransform="matrix(7.5637 0 0 7.5637 -543.5 -123.14)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#b5cddc" offset="0"/>
+   <stop stop-color="#cee0e9" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient863" x1="8.5761" x2="8.5761" y1="9.4981" y2="2.6825" gradientTransform="matrix(5.3326 0 0 5.3326 -13.672 -15.159)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ff5f19" offset="0"/>
+   <stop stop-color="#ffc819" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="399.57" x2="399.57" y1="545.8" y2="517.8" gradientTransform="matrix(.56696 0 0 .56696 -194.5 -294.09)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3889e9" offset="0"/>
+   <stop stop-color="#5ea5fb" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-21.834 .89695)" fill="#5e4aa6" stroke-width=".26458">
+  <circle cx="-330.35" cy="-328.38" r="0"/>
+  <circle cx="-312.11" cy="-326.25" r="0"/>
+  <circle cx="-306.02" cy="-333.07" r="0"/>
+  <circle cx="-308.84" cy="-326.01" r="0"/>
+ </g>
+ <g stroke-width="7.5637">
+  <path transform="scale(.26458)" d="m32 2a30 30 0 0 0-30 30 30 30 0 0 0 30 30 30 30 0 0 0 30-30 30 30 0 0 0-30-30z" fill="url(#linearGradient1545)"/>
+  <path transform="scale(.26458)" d="m31.945 28.529a3.7146 3.129 0 0 0-0.36719 0.023437 3.7146 3.129 0 0 0-0.36719 0.046875 3.7146 3.129 0 0 0-0.35547 0.085938 3.7146 3.129 0 0 0-0.35156 0.10938 3.7146 3.129 0 0 0-0.33203 0.14062 3.7146 3.129 0 0 0-0.3125 0.16797 3.7146 3.129 0 0 0-0.29102 0.19141 3.7146 3.129 0 0 0-0.19531 0.15234l-22.486 18.943a30 30 0 0 0 25.113 13.609 30 30 0 0 0 25.104-13.619l-22.477-18.934a3.7146 3.129 0 0 0-0.27344-0.21094 3.7146 3.129 0 0 0-0.30078-0.18359 3.7146 3.129 0 0 0-0.31641-0.16016 3.7146 3.129 0 0 0-0.33594-0.13281 3.7146 3.129 0 0 0-0.35156-0.10156 3.7146 3.129 0 0 0-0.36523-0.074219 3.7146 3.129 0 0 0-0.36719-0.042968 3.7146 3.129 0 0 0-0.37109-0.011719z" fill="url(#linearGradient1454)"/>
+  <path transform="scale(.26458)" d="m32 2a30 30 0 0 0-25.102 13.617l22.475 18.932a3.7146 3.129 0 0 0 0.19531 0.15234 3.7146 3.129 0 0 0 0.29102 0.19141 3.7146 3.129 0 0 0 0.3125 0.16797 3.7146 3.129 0 0 0 0.33203 0.14062 3.7146 3.129 0 0 0 0.35156 0.10938 3.7146 3.129 0 0 0 0.35547 0.085937 3.7146 3.129 0 0 0 0.36719 0.046875 3.7146 3.129 0 0 0 0.36719 0.023438 3.7146 3.129 0 0 0 0.37109-0.009766 3.7146 3.129 0 0 0 0.36719-0.042969 3.7146 3.129 0 0 0 0.36523-0.074218 3.7146 3.129 0 0 0 0.35156-0.10156 3.7146 3.129 0 0 0 0.33594-0.13281 3.7146 3.129 0 0 0 0.31641-0.16211 3.7146 3.129 0 0 0 0.30078-0.18359 3.7146 3.129 0 0 0 0.27344-0.21094l22.486-18.941a30 30 0 0 0-25.113-13.607z" fill="#fff"/>
+ </g>
+ <path transform="scale(.26458)" d="m55.467 13.314-23.244 17.889c0.030124-0.023169-0.4814-0.023282-0.45117 0l-23.219-17.869a30 30 0 0 0-2.4043 3.5059l23.033 17.73c1.7147 1.3198 3.9181 1.3197 5.6328 0l23.033-17.727a30 30 0 0 0-2.3809-3.5293z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#linearGradient863)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+ <circle cx="32.604" cy="7.4007" r="0" fill="url(#b)" stroke-width=".41578"/>
+</svg>

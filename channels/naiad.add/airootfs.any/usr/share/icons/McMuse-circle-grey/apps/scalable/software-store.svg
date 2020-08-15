@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1485" x1="-112.01" x2="-101.23" y1="18.859" y2="18.859" gradientTransform="matrix(5.2272 0 0 4.8688 582.11 -59.711)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00f0f0" offset="0"/>
+   <stop stop-color="#f0f000" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1493" x1="-111.06" x2="-111.06" y1="15.413" y2="24.998" gradientTransform="matrix(4.8688 0 0 4.8688 541.97 -59.711)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#2d96f0" offset="0"/>
+   <stop stop-color="#28f0c8" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1529" x1="-112.02" x2="-97.816" y1="16.153" y2="16.153" gradientTransform="matrix(4.8688 0 0 4.8688 541.97 -59.711)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#19d264" offset="0"/>
+   <stop stop-color="#19c869" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1537" x1="-101.09" x2="-101.09" y1="24.823" y2="12.616" gradientTransform="matrix(4.8688 0 0 4.8688 541.97 -59.711)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f55a37" offset="0"/>
+   <stop stop-color="#fa8c19" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1545" x1="-111.51" x2="-103.44" y1="22.313" y2="22.313" gradientTransform="matrix(4.8688 0 0 4.8688 541.97 -59.711)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#b4329b" offset="0"/>
+   <stop stop-color="#870f50" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path transform="scale(.26458)" d="m53.678 11.277-23.713 24.592 19.133 20.738a30 30 0 0 0 12.902-24.607 30 30 0 0 0-8.3223-20.723z" fill="url(#linearGradient1537)" stroke-width="4.0308"/>
+ <path transform="scale(.26458)" d="m29.965 35.869-20.018 16.426a30 30 0 0 0 21.625 9.6836h1.0273a30 30 0 0 0 18.307-6.7051l-20.941-19.404z" fill="url(#linearGradient1545)" stroke-width="2.66"/>
+ <path transform="scale(.26458)" d="m31.945 2.002a30 30 0 0 0-25.564 14.461l23.586 19.41 25.16-22.947a30 30 0 0 0-23.088-10.924h-0.09375z" fill="url(#linearGradient1529)" stroke-width="3.656"/>
+ <path transform="scale(.26458)" d="m7.3066 14.973a30 30 0 0 0-5.3066 17.027 30 30 0 0 0 8.8535 21.248l19.111-17.375-22.658-20.9z" fill="url(#linearGradient1493)" stroke-width="3.6417"/>
+ <path transform="scale(.26458)" d="m7.2578 15.037a30 30 0 0 0-2.5762 4.6328l25.307 16.199-22.73-20.832z" image-rendering="optimizeSpeed" opacity=".1" stroke-width="4.4505"/>
+ <path transform="scale(.26458)" d="m35.529 30.818-24.672 22.436a30 30 0 0 0 2.418 2.1484l22.254-24.584z" opacity=".4" stroke-width="4.8688"/>
+ <path transform="scale(.26458)" d="m13.275 8.5684a30 30 0 0 0-11.275 23.432 30 30 0 0 0 14.322 25.533l33.197-18.402c1.4589-0.80423 2.4603-1.8871 3.0176-3.2188 0.55728-1.3448 0.55728-2.6897 0-4.0215-0.55729-1.3316-1.5573-2.4131-3-3.2305l-36.262-20.092z" fill="url(#linearGradient1485)" image-rendering="optimizeSpeed" opacity=".5" stroke-width="4.6115"/>
+ <ellipse cx="4.4405" cy="4.616" rx=".78331" ry=".82843" fill="#197d78" stroke-width="1.2526" style="paint-order:stroke fill markers"/>
+ <ellipse cx="12.492" cy="4.616" rx=".78331" ry=".82843" fill="#197d78" stroke-width="1.2526" style="paint-order:stroke fill markers"/>
+ <path d="m12.483 4.7423a4.0202 4.7852 0 0 1 0.0037 0.1914 4.0202 4.7852 0 0 1-4.0202 4.7852 4.0202 4.7852 0 0 1-4.0202-4.7852 4.0202 4.7852 0 0 1 0.00365-0.19167" fill="none" opacity=".4" stroke="#000" stroke-dashoffset=".42096" stroke-linecap="round" stroke-width=".70177"/>
+ <path d="m12.495 4.7333a4.0282 4.2603 0 0 1 0.003654 0.1704 4.0282 4.2603 0 0 1-4.0282 4.2603 4.0282 4.2603 0 0 1-4.0282-4.2603 4.0282 4.2603 0 0 1 0.003654-0.17065" fill="none" stroke="#fff" stroke-dashoffset=".42096" stroke-linecap="round" stroke-width=".66283"/>
+</svg>

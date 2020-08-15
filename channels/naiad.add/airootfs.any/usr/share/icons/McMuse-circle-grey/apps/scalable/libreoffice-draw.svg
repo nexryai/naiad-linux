@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <filter id="e" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.9"/>
+  </filter>
+  <linearGradient id="b-36" x1="32" x2="32" y1="2" y2="62" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f49e7a" offset="0"/>
+   <stop stop-color="#fe9a69" offset=".515"/>
+   <stop stop-color="#c84b2b" offset=".515"/>
+   <stop stop-color="#d33f24" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a" x1="32" x2="32" y1="8" y2="56" gradientTransform="matrix(.75 0 0 .75 21 21)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#bc3b22" offset="0"/>
+   <stop stop-color="#e05d3e" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1="32" x2="32" y1="2" y2="62" gradientUnits="userSpaceOnUse">
+   <stop stop-opacity="0" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <filter id="g" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.72"/>
+  </filter>
+  <linearGradient id="c" x1="32" x2="32" y1="2" y2="62" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e36f49" offset="0"/>
+   <stop stop-color="#e6653c" offset=".515"/>
+   <stop stop-color="#c84b2b" offset=".515"/>
+   <stop stop-color="#d33f24" offset="1"/>
+  </linearGradient>
+  <filter id="filter1127" x="-.061879" y="-.058232" width="1.1238" height="1.1165" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.48526995"/>
+  </filter>
+ </defs>
+ <filter id="b" x="-.38565" y="-.29393" width="1.7713" height="1.5879" color-interpolation-filters="sRGB">
+  <feGaussianBlur stdDeviation="23.130703"/>
+ </filter>
+ <g transform="translate(-.068001 -.068001)" fill-rule="evenodd">
+  <circle cx="32" cy="32" r="30" filter="url(#e)" opacity=".25" style="paint-order:stroke fill markers"/>
+  <circle cx="32" cy="32" r="30" fill="url(#b-36)" style="paint-order:stroke fill markers"/>
+  <path d="m32 2a30 30 0 0 0-30 30 30 30 0 0 0 30 30z" fill="url(#c)" style="paint-order:stroke fill markers"/>
+ </g>
+ <g transform="translate(-.068001 -.068001)" fill-rule="evenodd">
+  <circle cx="32" cy="32" r="30" fill="url(#d)" opacity=".15" style="paint-order:stroke fill markers"/>
+  <circle transform="matrix(.75 0 0 .75 21 21)" cx="32" cy="32" r="24" filter="url(#g)" opacity=".15" style="paint-order:stroke fill markers"/>
+  <circle cx="45" cy="45" r="18" fill="url(#a)" style="paint-order:stroke fill markers"/>
+ </g>
+ <g filter="url(#filter1127)" opacity=".25" stroke-width=".68587" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="D">
+  <path d="m42.309 38.83v12.204h1.8486q3.1615 0 4.8226-1.5673 1.6745-1.5673 1.6745-4.5546 0-2.9739-1.6611-4.5278-1.6611-1.5539-4.836-1.5539zm-5.1575-3.8982h5.4388q4.5546 0 6.7784 0.6564 2.2371 0.64301 3.8313 2.1969 1.4066 1.353 2.0898 3.1213 0.6832 1.7683 0.6832 4.0054 0 2.2639-0.6832 4.0456-0.6832 1.7683-2.0898 3.1213-1.6075 1.5539-3.858 2.2103-2.2505 0.64301-6.7516 0.64301h-5.4388z" stroke-width=".68587"/>
+ </g>
+ <g fill="#fff" stroke-width=".68587" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="D">
+  <path d="m42.309 38.83v12.204h1.8486q3.1615 0 4.8226-1.5673 1.6745-1.5673 1.6745-4.5546 0-2.9739-1.6611-4.5278-1.6611-1.5539-4.836-1.5539zm-5.1575-3.8982h5.4388q4.5546 0 6.7784 0.6564 2.2371 0.64301 3.8313 2.1969 1.4066 1.353 2.0898 3.1213 0.6832 1.7683 0.6832 4.0054 0 2.2639-0.6832 4.0456-0.6832 1.7683-2.0898 3.1213-1.6075 1.5539-3.858 2.2103-2.2505 0.64301-6.7516 0.64301h-5.4388z" fill="#fff" stroke-width=".68587"/>
+ </g>
+</svg>
