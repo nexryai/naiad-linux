@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.1
-Type=Application
-Name=naiad-store
-Comment=このアプリケーションの簡単な紹介
-Icon=deepin-appstore
-Exec=/usr/naiad/naiad-store/naiad-store
-Actions=
-Categories=System;X-XFCE;X-Xfce-Toplevel;
