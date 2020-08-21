@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 #
-# Yamada Hayao
-# Twitter: @Hayao0819
-# Email  : hayao@fascode.net
-#
-# (c) 2019-2020 Fascode Network.
+# (c) 2019-2020
 #
 # config
 #
@@ -23,6 +19,14 @@ iso_label="NAIAD_$(date +%Y%m)"
 
 # Image file name (not file name)
 iso_application="naiad linux Live/Rescue CD"
+
+# Set to true to enable plymouth.(-b)
+boot_splash=false
+
+# Set the Japanese mode.
+# When this is enabled, the packages in the japanese package list will be installed.
+# A file for Japanese input is added.
+japanese=true
 
 # Set the user's default shell.
 usershell="/bin/bash"

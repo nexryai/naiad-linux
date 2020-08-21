@@ -1,7 +1,7 @@
-# 
+#
 # Alter Linux package list
 #
-# Yamada Hayao 
+# Yamada Hayao
 # Twitter: @Hayao0819
 # Email  : hayao@fascode.net
 #
@@ -49,7 +49,7 @@ system-config-printer
 #-- scripts --#
 alterlinux-gtk-bookmarks
 alterlinux-live-tools
-alterlinux-welcome-page
+# alterlinux-welcome-page
 
 
 #-- text editor --#
