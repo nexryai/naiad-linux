@@ -12,5 +12,17 @@
 # This configuration file follows the bash syntax.
 #
 
+# OS name used for startup screen, etc.
+os_name="naiad linux"
+
+# OS name used for the name of the image file.
+iso_name=naiadlinux
+
+# Image file label
+iso_label="NAIAD_$(date +%Y%m)"
+
+# Image file name (not file name)
+iso_application="naiad linux Live/Rescue CD"
+
 # Set the user's default shell.
-usershell="/bin/zsh"
+usershell="/bin/bash"
