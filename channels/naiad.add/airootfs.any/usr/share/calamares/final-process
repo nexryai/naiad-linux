@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 function remove () {
     local list
     local file
@@ -22,6 +24,7 @@ done
 remove /etc/skel/Desktop
 remove /etc/skel/.config/gtk-3.0/bookmarks
 remove /home/${user}/Desktop/calamares.desktop
+remove /root/Desktop/calamares.desktop
 remove /home/${user}/.config/gtk-3.0/bookmarks
 remove /usr/share/calamares/
 
@@ -36,12 +39,13 @@ remove /root/.automated_script.sh
 remove /etc/mkinitcpio-archiso.conf
 remove /etc/initcpio
 
-if [[ -f /etc/systemd/journald.conf ]]; then
-    sed -i 's / Storage = volatile /＃Storage = auto /' /etc/systemd/journald.conf
-fi
+remove /etc/systemd/journald.conf.d/volatile-storage.conf
+remove /airootfs.any/etc/systemd/logind.conf.d/do-not-suspend.conf
 
 remove /etc/udev/rules.d/81-dhcpcd.rules
-remove /etc/systemd/system/{choose-mirror.service,etc-pacman.d-gnupg.mount,getty@tty1.service.d}
+remove /etc/systemd/system/{choose-mirror.service,getty@tty1.service.d}
 
 # Disabled auto login
-sed -i "s/^autologin/#autologin/g" /etc/lightdm.conf
+sed -i "s/^autologin/#autologin/g" /etc/lightdm/lightdm.conf
+
+remove "/etc/sudoers.d/alterlive"

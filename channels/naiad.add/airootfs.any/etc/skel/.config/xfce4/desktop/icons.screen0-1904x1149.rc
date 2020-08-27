@@ -1,3 +1,23 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/nexryai/デスクトップ/gtk-3.0]
+row=1
+col=0
+
+[/home/nexryai/デスクトップ/GrowthLinux-master]
+row=5
+col=0
+
+[/home/nexryai/デスクトップ/dconf]
+row=0
+col=0
+
+[/home/nexryai/デスクトップ/Thunar]
+row=2
+col=0
+
+[/home/nexryai/デスクトップ/GrowthLinux-master.zip]
+row=4
+col=0
+

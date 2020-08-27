@@ -26,6 +26,7 @@
         <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="6"/>
+        <value type="int" value="9"/>
       </property>
     </property>
   </property>
@@ -42,15 +43,21 @@
     </property>
     <property name="plugin-5" type="string" value="notification-plugin"/>
     <property name="plugin-6" type="string" value="clock">
-      <property name="digital-format" type="string" value="%T"/>
+      <property name="digital-format" type="string" value="%k:%M"/>
     </property>
     <property name="plugin-7" type="string" value="systray">
       <property name="names-ordered" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="bluetooth が有効"/>
+        <value type="string" value="blueman-tray"/>
         <value type="string" value="networkmanager アプレット"/>
         <value type="string" value="pamac-tray"/>
       </property>
     </property>
     <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>

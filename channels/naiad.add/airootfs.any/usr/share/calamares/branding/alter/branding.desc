@@ -74,10 +74,10 @@ strings:
     versionedName:       naiad Linux
     shortVersionedName:  naiad Linux
     bootloaderEntryName: naiad
-    productUrl:          
-    supportUrl:          
-    knownIssuesUrl:      
-    releaseNotesUrl:     
+    productUrl:          https://github.com/nexryai/naiad-linux
+    supportUrl:          https://github.com/nexryai/naiad-linux
+    knownIssuesUrl:      https://github.com/nexryai/naiad-linux
+    releaseNotesUrl:     https://github.com/nexryai/naiad-linux
 
 # These images are loaded from the branding module directory.
 #
