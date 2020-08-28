@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/splashscreen.css">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<!-- Load dependencies -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/moment-with-locales.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/materialize.min.js"></script>
+
+
+<!-- Sample lightdm object (for browser use only) -->
+<!-- <script src="js/lightdm-sample.js"></script> -->
+
+<!-- Load Utility functions -->
+<script src="js/_utils.js"></script>
+
+<!--  Load Plugins first -->
+<script src="js/splashscreen.js"></script>
+<!-- <script src="js/another_plugin.js"></script> -->
+
+<!-- Load Login Manager, depends on plugins -->
+<script src="js/LoginManager.js"></script>
+
+<!-- Load example theme -->
+<script src="js/theme.js"></script>
+
+<body>
+  <header></header>
+  <main>
+    <div class="container">
+      <div class="row" style="margin-top: 15vh;"></div>
+
+      <div class="row">
+        <div style="text-align: center"  class="col s12">
+          <!-- <img class="logo-ubuntu" src="images/ubuntu_logo.svg"> -->
+          <!-- <img class="logo-arch" src="images/arch_logo.svg"> -->
+        </div>
+      </div>
+      <div class="row" style="margin-top: 5vh;"></div>
+      <div class="row">
+        <div class="col s12" style="text-align: center">
+          <h1 class="welcome-text"><script>document.write(text[1])</script></h1>
+        </div>
+      </div>
+
+      <!-- User & Password Selections  -->
+      <div class="row ">
+        <!-- User Select -->
+        <div class="row">
+          <div class="input-field col s4 offset-s4">
+            <select id="selectUser"></select>
+            <label><script>document.write(text[3])</script></label>
+          </div>
+        </div>
+
+        <!-- Password field -->
+        <div class="row">
+          <div class="input-field col s4 offset-s4">
+            <input id="inputPassword" type="password" onselectstart="return true;">
+            <label for="inputPassword"><script>document.write(text[4])</script></label>
+          </div>
+        </div>
+        <!-- End Password field -->
+      </div>
+      <!-- End User & Password Selections  -->
+
+    </div>
+  </main>
+
+<!-- Bottom footer contains Session selection & power buttons -->
+  <footer >
+    <div class="row">
+      <!-- Window Manager Select -->
+      <div class="input-field col s2 offset-s1">
+        <select id="selectSession"></select>
+
+        <label><script>document.write(text[2])</script></label>
+      </div>
+      <!-- End Window Manager Select -->
+
+      <!-- Power button column  -->
+      <div class="col right" style="margin-right: 15px;">
+        <div class="row">
+          <!-- Hibernate Button -->
+          <div  id="buttonHibernate" class="col S4">
+            <svg viewBox="0 0 44.693 44.693" width="24px" height="24px" class="power-button">
+              <path d="M22.347,44.693c-3.017,0-5.942-0.591-8.698-1.757c-2.662-1.126-5.051-2.737-7.104-4.788
+              	c-2.052-2.053-3.662-4.441-4.787-7.104C0.592,28.289,0,25.362,0,22.347c0-3.017,0.592-5.942,1.758-8.699
+              	c1.125-2.661,2.735-5.051,4.787-7.103c2.053-2.052,4.441-3.662,7.104-4.788C16.404,0.592,19.33,0,22.347,0s5.942,0.592,8.698,1.757
+              	c2.662,1.126,5.051,2.736,7.104,4.788c2.051,2.052,3.662,4.441,4.787,7.103c1.166,2.757,1.758,5.683,1.758,8.699
+              	c0,3.016-0.592,5.942-1.758,8.698c-1.125,2.662-2.736,5.051-4.787,7.104c-2.053,2.051-4.441,3.662-7.104,4.788
+              	C28.289,44.103,25.363,44.693,22.347,44.693z M22.347,3.534c-10.373,0-18.812,8.439-18.812,18.813s8.438,18.812,18.812,18.812
+              	s18.812-8.438,18.812-18.812S32.72,3.534,22.347,3.534z"/>
+              <path d="M33.072,29.529c-6.354,1.064-12.367-3.223-13.432-9.575c-0.725-4.32,1.027-8.482,4.219-11.04
+              	c-0.852-0.025-1.719,0.031-2.592,0.177c-7.164,1.2-11.998,7.981-10.797,15.146s7.982,11.998,15.146,10.797
+              	c3.794-0.635,6.936-2.838,8.871-5.832C34.029,29.338,33.557,29.447,33.072,29.529z"/>
+            </svg>
+          </div>
+          <!-- End Hibernate Button -->
+
+          <!-- Restart Button -->
+          <div id="buttonRestart" class="col s4">
+            <svg class="power-button"  height="24px" width="24px" viewBox="0 0 50.076 44.694" >
+              <g>
+                <path d="M50.076,26.094l-7.258-8.435l-7.544,8.179l5.542,0.096c-1.689,8.741-9.475,15.226-18.471,15.226
+                	c-10.373,0-18.811-8.438-18.811-18.812S11.973,3.535,22.346,3.535c6.002,0,11.684,2.896,15.22,7.753l1.443-3.829
+                	c-1.79-1.998-3.937-3.678-6.31-4.92C29.529,0.879,25.949,0,22.346,0c-3.016,0-5.941,0.592-8.698,1.758
+                	c-2.661,1.125-5.051,2.736-7.103,4.788c-2.051,2.052-3.662,4.441-4.788,7.103C0.591,16.404,0,19.331,0,22.348
+                	c0,3.016,0.591,5.942,1.757,8.698c1.126,2.661,2.737,5.051,4.788,7.103c2.052,2.052,4.441,3.663,7.103,4.788
+                	c2.757,1.166,5.683,1.758,8.698,1.758c5.41,0,10.631-1.959,14.699-5.515c3.914-3.421,6.513-8.088,7.352-13.185L50.076,26.094z"/>
+              </g>
+            </svg>
+          </div>
+          <!-- End Restart Button -->
+
+          <!-- Shutdown Button -->
+          <div id="buttonPoweroff" class="col s4">
+            <svg class="power-button"  height="24px" width="24px" viewBox="0 0 44.771 46.559">
+              <g>
+              	<path d="M22.386,46.559c-3.021,0-5.953-0.592-8.714-1.76c-2.666-1.127-5.06-2.741-7.115-4.797
+              		c-2.055-2.055-3.669-4.449-4.797-7.115C0.592,30.127,0,27.195,0,24.174c0-3.619,0.885-7.215,2.559-10.399
+              		c1.619-3.081,3.973-5.781,6.807-7.812l2.059,2.873c-4.939,3.538-7.889,9.271-7.889,15.338c0,10.395,8.457,18.851,18.851,18.851
+              		s18.851-8.456,18.851-18.851c0-6.066-2.949-11.8-7.889-15.338l2.059-2.873c2.834,2.03,5.188,4.73,6.807,7.812
+              		c1.674,3.185,2.559,6.78,2.559,10.399c0,3.021-0.592,5.953-1.76,8.713c-1.128,2.666-2.742,5.061-4.797,7.115
+              		c-2.056,2.056-4.449,3.67-7.115,4.797C28.339,45.967,25.407,46.559,22.386,46.559z"/>
+              	<rect x="20.93" width="3" height="22"/>
+              </g>
+            </svg>
+          </div>
+          <!-- End Shutdown Button -->
+
+        </div>
+      </div>
+      <!-- End Power button column  -->
+    </div>
+  </footer>
+
+  <script>
+
+    /* Use custom logging for debugging without a browser.
+       Pass true to show logger output on screen */
+    const log = new Logger(false);
+
+    /* Define this fuction so lightdm doesn't crash, gets redefined
+    in login manager. */
+    window.authentication_complete = function() {};
+  </script>
+</body>
+</html>

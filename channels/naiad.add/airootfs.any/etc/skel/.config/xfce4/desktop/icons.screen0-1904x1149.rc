@@ -1,23 +1,47 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/nexryai/デスクトップ/gtk-3.0]
-row=1
-col=0
+[/home/nexryai/デスクトップ/Thunar]
+row=0
+col=1
 
-[/home/nexryai/デスクトップ/GrowthLinux-master]
-row=5
-col=0
-
-[/home/nexryai/デスクトップ/dconf]
+[/home/nexryai/デスクトップ/lightdm-webkit-modern-arch-theme-master.zip]
 row=0
 col=0
 
-[/home/nexryai/デスクトップ/Thunar]
-row=2
+[/home/nexryai/デスクトップ/dconf]
+row=8
 col=0
 
 [/home/nexryai/デスクトップ/GrowthLinux-master.zip]
+row=3
+col=0
+
+[/home/nexryai/デスクトップ/branding.7z]
+row=2
+col=0
+
+[/home/nexryai/デスクトップ/naiad]
+row=6
+col=0
+
+[/home/nexryai/デスクトップ/config.7z]
+row=7
+col=0
+
+[/home/nexryai/デスクトップ/branding]
+row=1
+col=0
+
+[/home/nexryai/デスクトップ/03-Tela-circle-blue.tar]
+row=5
+col=0
+
+[/home/nexryai/デスクトップ/GrowthLinux-master]
 row=4
+col=0
+
+[/home/nexryai/デスクトップ/gtk-3.0]
+row=9
 col=0
 

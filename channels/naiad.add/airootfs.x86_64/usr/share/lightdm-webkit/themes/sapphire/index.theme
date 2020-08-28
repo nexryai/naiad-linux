@@ -1,6 +1,0 @@
-[theme]
-name=Sapphire
-description=Sapphire Theme
-engine=lightdm-webkit2-greeter
-url=index.html
-session=gnome

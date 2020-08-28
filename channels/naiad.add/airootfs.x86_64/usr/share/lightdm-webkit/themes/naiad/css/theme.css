@@ -1,0 +1,137 @@
+/* Simple example of css used to stylize the login screen */
+* {
+  /* webkit2 is very slow, this is supposed to speed up animations */
+  backface-visibility: hidden;
+  user-select: none;
+}
+/* 日本語のフォント */
+@font-face {
+	font-family: 'MyFont';
+	src: url('NotoSansJP-Regular.otf') format('opentype');
+
+}
+/* 英語のフォント */
+@font-face {
+	font-family: 'MyFont2';
+	src: url('Renner_ 400 Book.ttf') format('truetype');
+
+}
+/* 時計のフォント */
+@font-face {
+	font-family: 'MyFont3';
+	src: url('Lato-Regular.ttf') format('truetype');
+
+}
+/* .gaussfade-out{
+  animation: rotation 2s ease 0s 1 alternate none running;
+} */
+@keyframes rotation {
+  0% {
+    filter: blur(0px);
+  }
+
+  50% {
+    filter: blur(100px);
+  }
+
+  100% {
+    filter: blur(0px);
+  }
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: white;
+  background-color: #0b2d49;
+  overflow: hidden;
+	font-family: 'MyFont2','MyFont';
+  background-image: url("../images/16-9.png");
+  background-position:center center;        
+  background-size: cover;           
+  width:100%;     
+  height:100vh;      
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: inherit;
+  z-index: -1;
+  filter: blur(5px);
+}
+main {
+  flex: 1 0 auto;
+}
+input {
+  color: white;
+}
+
+.caret {
+  fill: grey !important;
+}
+/* .row{
+  margin: 0 auto 30px;
+} */
+.col.right{
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  height: 25px;
+}
+.col.right .row{
+  margin: 0;
+}
+.power-button {
+  vertical-align: bottom;
+  margin-bottom: 40px;
+  fill: #bdc3c7;
+}
+.power-button:hover {
+  fill: #ecf0f1;
+}
+.power-button:active {
+  fill: white;
+  transform: scale(0.95);
+}
+.input-field.col.s2.offset-s1{
+  position: fixed;
+  width: 280px;
+  left: 10px;
+  bottom: 30px;
+  height: 25px;
+  margin-bottom: 0;
+}
+div#console {
+  z-index: 9999;
+  position: absolute;
+  top: 10px;
+}
+div#console .terminal {
+  overflow-y: scroll;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 14pt;
+  color: white;
+  height: 30vh;
+  width: 85vw;
+  resize: both;
+}
+div#console .terminal text {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.welcome-text {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.logo-ubuntu {
+  height: 10vh;
+}
+.logo-alter {
+  width: 50%;
+  height: auto;
+}
