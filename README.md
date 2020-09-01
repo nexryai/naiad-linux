@@ -2,7 +2,7 @@
 Arch系LinuxであるAlter Linuxベースのxfceデスクトップ採用のエレガントで軽量で先進的なLinux。AlterISOを使用してビルドします。極度PR（しなさい）
 
 # 注意
-まだAlter iso向けには不完全でまともに作動しません。長い目でお待ちください
+まだAlter iso向けには不完全でまともに作動しません。長い目でお待ちください。Alter iso3には対応していません
 
 # ライセンス
 GNU GPL 3
