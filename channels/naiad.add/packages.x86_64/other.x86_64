@@ -1,7 +1,7 @@
-# 
+#
 # naiad Linux package list
 #
-# nexryai 
+# nexryai
 # Twitter: @nexryai
 #
 # (c) 2019-2020 naiad technology
@@ -52,7 +52,7 @@ alterlinux-live-tools
 
 
 #-- text editor --#
-medit
+mousepad
 nano
 vim
 
