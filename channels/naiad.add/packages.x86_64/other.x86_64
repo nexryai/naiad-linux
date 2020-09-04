@@ -29,7 +29,7 @@ man-pages
 
 
 #-- game pad --#
-jstest-gtk-git
+# jstest-gtk-git
 
 
 #-- system monitor --#
@@ -60,6 +60,6 @@ vim
 #-- other --#
 # etcher-bin
 ipad_charge
-libreoffice-still
+# libreoffice-still
 snapd
 tlpui

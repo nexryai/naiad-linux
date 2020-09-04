@@ -1,7 +1,7 @@
-# 
+#
 # naiad Linux package list
 #
-# nexryai 
+# nexryai
 # Twitter: @nexryai
 #
 # (c) 2019-2020 naiad technology
@@ -18,8 +18,3 @@ lsd-control
 powerline-go
 
 
-#-- zsh --#
-zsh
-zsh-autosuggestions
-zsh-completions
-zsh-syntax-highlighting
