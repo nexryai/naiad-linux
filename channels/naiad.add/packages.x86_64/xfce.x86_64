@@ -9,7 +9,6 @@
 # Xfce4 Desktop Environment
 
 
-#-- xfce4 base --#
 exo
 garcon
 gnome-keyring
@@ -28,16 +27,8 @@ xfconf
 xfdesktop
 xfwm4
 xfwm4-themes
-
-
-#-- xfce4 config --#
-# alterlinux-xfce-conf
-
-
-#-- xfce4 plugins --#
 thunar-archive-plugin
 thunar-media-tags-plugin
-# thunar-vcs-plugin
 xfce4-calculator-plugin
 xfce4-clipman-plugin
 xfce4-docklike-plugin-git

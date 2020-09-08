@@ -46,8 +46,8 @@ pamac-aur
 system-config-printer
 
 #-- scripts --#
-alterlinux-gtk-bookmarks
-alterlinux-live-tools
+# alterlinux-gtk-bookmarks
+# alterlinux-live-tools
 # alterlinux-welcome-page
 
 
