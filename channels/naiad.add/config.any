@@ -29,7 +29,7 @@ iso_application="naiad linux Live/Rescue CD"
 install_dir=naiad
 
 # Set to true to enable plymouth.(-b)
-boot_splash=false
+boot_splash=true
 theme_name=naiad
 
 # Set the kernel that live session use.
