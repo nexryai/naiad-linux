@@ -1,4 +1,6 @@
 ***このブランチはAlterISO3には対応していません***
+以下からAlterISO2を取得しビルドしてください
+<https://github.com/FascodeNet/alterlinux/tree/alteriso-2>
 # naiad-linux
 Arch系LinuxであるAlter Linuxベースのxfceデスクトップ採用のエレガントで軽量で先進的なLinux。AlterISOを使用してビルドします。極度PR（しなさい）
 
