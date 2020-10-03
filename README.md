@@ -16,5 +16,5 @@ GNU GPL 3
 |  naiad-linux-alteriso   |  naiad-linux-alteriso3  |
 |          ----           |           ----          |
 |  AlterISO2              |  AlterISO3              |
-|  安定  推奨           　  | 開発中　不安定            |
+|  安定 - 推奨           　 | 開発中 -　不安定          |
 
