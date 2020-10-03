@@ -1,4 +1,0 @@
-#[kernel name]               [kernel filename]               [mkinitcpio profile]
-#
-
-lts                          vmlinuz-linux-lts               linux-lts
