@@ -1,4 +1,4 @@
-***このブランチはAlterISO3には対応していません***  
+***このブランチはAlterISO3には対応していません*** <br>
 以下からAlterISO2を取得しビルドしてください
 <https://github.com/FascodeNet/alterlinux/tree/alteriso-2>
 # naiad-linux
