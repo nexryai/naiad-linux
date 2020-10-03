@@ -28,9 +28,6 @@ man-db
 man-pages
 
 
-#-- game pad --#
-# jstest-gtk-git
-
 
 #-- system monitor --#
 cpu-x
@@ -45,10 +42,6 @@ pamac-aur
 #-- printer --#
 system-config-printer
 
-#-- scripts --#
-# alterlinux-gtk-bookmarks
-# alterlinux-live-tools
-# alterlinux-welcome-page
 
 
 #-- text editor --#
@@ -58,8 +51,7 @@ vim
 
 
 #-- other --#
-# etcher-bin
 ipad_charge
-# libreoffice-still
+firetools
 snapd
 tlpui

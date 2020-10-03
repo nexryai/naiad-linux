@@ -40,7 +40,7 @@ kernel=lts
 # Set the Japanese mode.
 # When this is enabled, the packages in the japanese package list will be installed.
 # A file for Japanese input is added.
-japanese=true
+locale_name=ja
 
 # Set the live environment user name
 defaultusername="naiad"

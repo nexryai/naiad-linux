@@ -1,7 +1,7 @@
-# 
+#
 # naiad Linux package list
 #
-# nexryai 
+# nexryai
 # Twitter: @nexryai
 #
 # (c) 2019-2020 naiad technology
@@ -20,5 +20,3 @@ fcitx-mozc
 fcitx-qt5
 
 
-# other
-libreoffice-still-ja
