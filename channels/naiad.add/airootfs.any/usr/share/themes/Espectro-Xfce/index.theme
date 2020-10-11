@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Espectro-Xfce
+Type=X-GNOME-Metatheme
+Comment=joseddon
+
+[X-GNOME-Metatheme]
+GtkTheme=Espectro
+MetacityTheme=Espectro
+IconTheme=gnome
+GtkColorScheme=link_color:#027272,visited_link_color:#E040FB
+CursorTheme=default
+CursorSize=24
