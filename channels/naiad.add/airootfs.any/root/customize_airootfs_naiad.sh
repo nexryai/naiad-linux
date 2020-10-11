@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 #
-
+# Yamada Hayao
+# Twitter: @Hayao0819
+# Email  : hayao@fascode.net
+#
+# (c) 2019-2020 Fascode Network.
+#
 
 set -e -u
 
 
-# Default value
 # Default value
 # All values can be changed by arguments.
 password=alter
@@ -68,65 +72,41 @@ function remove () {
 }
 
 
-# Replace wallpaper.
-if [[ -f /usr/share/backgrounds/xfce/xfce-stripes.png ]]; then
-    remove /usr/share/backgrounds/xfce/xfce-stripes.png
-    ln -s /usr/share/backgrounds/naiad.png /usr/share/backgrounds/xfce/xfce-stripes.png
+# Delete icon cache
+remove "/home/${username}/.cache/icon-cache.kcache"
+
+
+if [[ "${arch}" = "x86_64" ]]; then
+    # Snap
+    systemctl enable snapd.apparmor.service
+    systemctl enable apparmor.service
+    systemctl enable snapd.socket
+    systemctl enable snapd.service
+
+
+    # firewalld
+    systemctl enable firewalld.service
 fi
-[[ -f /usr/share/backgrounds/naiad.png ]] && chmod 644 /usr/share/backgrounds/naiad.png
 
 
 # Bluetooth
 rfkill unblock all
 systemctl enable bluetooth
 
-# Snap
-if [[ "${arch}" = "x86_64" ]]; then
-    systemctl enable snapd.apparmor.service
-    systemctl enable apparmor.service
-    systemctl enable snapd.socket
-    systemctl enable snapd.service
-fi
-
-
 # Update system datebase
 dconf update
 
-
-# firewalld
-systemctl enable firewalld.service
-
-
-# Replace right menu
-if [[ "${language}" = "ja" ]]; then
-    remove "/etc/skel/.config/Thunar/uca.xml"
-    remove "/home/${username}/.config/Thunar/uca.xml"
-
-    mv "/etc/skel/.config/Thunar/uca.xml.jp" "/etc/skel/.config/Thunar/uca.xml"
-    mv "/home/${username}/.config/Thunar/uca.xml.jp" "/home/${username}/.config/Thunar/uca.xml"
+# Enable SDDM to auto login in live session
+if [[ "${boot_splash}" = true ]]; then
+    systemctl enable sddm-plymouth.service
+    systemctl disable sddm.service
 else
-    remove "/etc/skel/.config/Thunar/uca.xml.jp"
-    remove "/home/${username}/.config/Thunar/uca.xml.jp"
+    systemctl enable sddm.service
 fi
 
-# Added autologin group to auto login
-groupadd autologin
-usermod -aG autologin ${username}
+echo -e "\nremove /etc/sddm.conf.d/autologin.conf" >> "/usr/share/calamares/final-process"
+sed -i "s|%USERNAME%|${username}|g" "/etc/sddm.conf.d/autologin.conf"
+
 
 # ntp
 systemctl enable systemd-timesyncd.service
-
-
-# Enable LightDM to auto login
-if [[ "${boot_splash}" =  true ]]; then
-    systemctl enable lightdm-plymouth.service
-else
-    systemctl enable lightdm.service
-fi
-
-
-# Set script permission
-chmod 755 /usr/bin/alterlinux-gtk-bookmarks
-
-# Replace auto login user
-sed -i s/%USERNAME%/${username}/g /etc/lightdm/lightdm.conf

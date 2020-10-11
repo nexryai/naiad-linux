@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=naiad
-Description=Plymouth theme
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/naiad
-ScriptFile=/usr/share/plymouth/themes/naiad/naiad.script

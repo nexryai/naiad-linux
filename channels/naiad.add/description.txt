@@ -1,1 +1,1 @@
-naiad linux channel
+Uses KDE and Qt software.

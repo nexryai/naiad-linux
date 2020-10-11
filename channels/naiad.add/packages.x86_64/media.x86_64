@@ -1,28 +1,27 @@
 #
-# naiad Linux package list
+# Alter Linux package list
 #
-# nexryai
-# Twitter: @nexryai
+# lap1sid
+# Twitter: @Pixel_3a
+# Email  : lap1sid@fascode.net
 #
-# (c) 2019-2020 naiad technology
+# (c) 2019-2020 Fascode Network.
 #
 # Media
 
 
-#-- audio --#
-pavucontrol
-pulseaudio
-
-
 #-- bluetooth --#
-blueman
+bluedevil
 bluez
 bluez-utils
-# pulseaudio-bluetooth
-pulseaudio-modules-bt
+pulseaudio-bluetooth
+
+
+#-- audio --#
+pulseaudio
+# plasma-pa
 
 
 #-- media player --#
-viewnior
-parole
-gst-libav
+gwenview
+vlc

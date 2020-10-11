@@ -1,26 +1,18 @@
 #
-# naiad Linux package list
+# Alter Linux package list
+# lap1sid
+# Twitter: @Pixel_3a
+# Email  : lap1sid@fascode.net
 #
-# nexryai
-# Twitter: @nexryai
+# (c) 2019-2020 Fascode Network.
 #
-# (c) 2019-2020 naiad technology
-#
-
-
-#-- archiver --#
-xarchiver
-
-
-#-- GVFS --#
-gvfs
-gvfs-smb
 
 
 #-- boot manager --#
-# grub-theme-vimix-alter
-grub-theme-vimix
+grub
 grub-customizer
+os-prober
+refind
 
 
 #-- documents --#
@@ -28,30 +20,20 @@ man-db
 man-pages
 
 
-
 #-- system monitor --#
+ksysguard
 cpu-x
-gnome-system-monitor
-htop
-
-
-#-- pacman --#
-pamac-aur
-
-
-#-- printer --#
-system-config-printer
 
 
 
 #-- text editor --#
-mousepad
+kate
 nano
 vim
 
 
 #-- other --#
+htop
 ipad_charge
-firetools
 snapd
-tlpui
+packagekit-qt5

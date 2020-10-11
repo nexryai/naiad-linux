@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 #
-# Yamada Hayao 
+# Yamada Hayao
 # Twitter: @Hayao0819
 # Email  : hayao@fascode.net
 #
@@ -45,7 +45,7 @@ else
         PS1="$(powerline-go -error $?)"
     }
 
-    if [[ "$TERM" != "linux" ]]; then
+    if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
         PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
     fi
 fi

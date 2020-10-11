@@ -1,17 +1,16 @@
-# 
-# naiad Linux package list
 #
-# nexryai 
-# Twitter: @nexryai
+# Alter Linux package list
 #
-# (c) 2019-2020 naiad technology
+# Yamada Hayao
+# Twitter: @Hayao0819
+# Email  : hayao@fascode.net
+#
+# (c) 2019-2020 Fascode Network.
 #
 # Fonts
 
 
 # font
-adobe-source-code-pro-fonts
-nerd-fonts-source-code-pro
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
