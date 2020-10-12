@@ -1,19 +1,5 @@
-#
-# Alter Linux package list
-#
-# lap1sid
-# Twitter: @Pixel_3a
-# Email  : lap1sid@fascode.net
-#
-# (c) 2019-2020 Fascode Network.
-#
-# KDE Plasma 5 Desktop Environment
-
-
-#-- KDE Plasma 5 base --#
-# plasma-meta
 dolphin
-# konsole
+konsole
 theshell
-# kde-gtk-config
-# ark
+kvantum-qt5
+kvantum-theme-chromeos-git
