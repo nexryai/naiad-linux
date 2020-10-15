@@ -1,0 +1,28 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+# Media
+
+
+#-- audio --#
+pavucontrol
+pulseaudio
+
+
+#-- bluetooth --#
+blueman
+bluez
+bluez-utils
+# pulseaudio-bluetooth
+pulseaudio-modules-bt
+
+
+#-- media player --#
+viewnior
+parole
+gst-libav

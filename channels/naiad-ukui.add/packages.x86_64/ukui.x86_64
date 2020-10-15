@@ -1,0 +1,30 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+# UKUI Desktop Environment
+
+kylin-nm
+peony
+qt5-ukui-platformtheme
+ukui-biometric-auth
+ukui-control-center
+ukui-greeter
+ukui-interface
+ukui-media
+ukui-menu
+ukui-menus
+ukui-panel
+ukui-power-manager
+ukui-screensaver
+ukui-session-manager
+ukui-settings-daemon
+ukui-sidebar
+ukui-themes
+ukui-wallpapers
+ukui-window-switch
+ukwm

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#A program that displays the build version of naiad linux.
+cat  version.txt

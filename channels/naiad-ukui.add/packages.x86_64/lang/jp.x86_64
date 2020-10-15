@@ -1,0 +1,22 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+# This package list will only be installed if the Japanese option is enabled.
+#
+# Japanese package
+
+# fcitx config
+alterlinux-fcitx-conf
+
+# fcitx
+fcitx
+fcitx-configtool
+fcitx-mozc
+fcitx-qt5
+
+

@@ -1,0 +1,6 @@
+# Distribution defaults. Changes to this file will get overwritten during
+# upgrades.
+[Daemon]
+Theme=naiad
+ShowDelay=5
+DeviceTimeout=5

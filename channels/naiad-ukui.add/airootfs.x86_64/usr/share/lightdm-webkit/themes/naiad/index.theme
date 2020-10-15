@@ -1,0 +1,6 @@
+[theme]
+name=naiad
+description=Customizable Greeter Interface
+engine=lightdm-webkit-greeter
+url=index.html
+session=xfce

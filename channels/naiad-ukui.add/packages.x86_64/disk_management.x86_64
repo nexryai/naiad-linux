@@ -1,0 +1,29 @@
+# 
+# naiad Linux package list
+#
+# nexryai 
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+# Disk management
+
+
+baobab
+clonezilla
+ddrescue
+dmraid
+fsarchiver
+gnome-disk-utility
+gparted
+gptfdisk
+hdparm
+lvm2
+mdadm
+nvme-cli
+partclone
+parted
+partimage
+sdparm
+smartmontools
+testdisk
