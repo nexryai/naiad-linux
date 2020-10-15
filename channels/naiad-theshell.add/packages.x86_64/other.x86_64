@@ -1,0 +1,29 @@
+#-- boot manager --#
+grub
+grub-customizer
+os-prober
+refind
+
+
+#-- documents --#
+man-db
+man-pages
+
+
+#-- system monitor --#
+ksysguard
+cpu-x
+
+
+
+#-- text editor --#
+kate
+nano
+vim
+
+
+#-- other --#
+htop
+ipad_charge
+snapd
+packagekit-qt5
