@@ -1,5 +1,5 @@
 # naiad-linux
-Arch系LinuxであるAlter Linuxベースのtheshellデスクトップ採用のエレガントで軽量でミニマルなLinux。AlterISO3を使用してビルドします。極度PR（しなさい）
+Arch系LinuxであるAlter LinuxベースのMATEデスクトップ採用のエレガントで軽量でミニマルなLinux。AlterISO3を使用してビルドします。極度PR（しなさい）
 
 
 # ライセンス
