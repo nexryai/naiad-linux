@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="fontawesome/css/solid.min.css">
+		<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+	</head>
+	<body>
+		<img id="wallpaper" class="background">
+
+		<div id="session-select-popup" class="session-select-popup hidden"></div>
+		<div class="top-bar">
+			&nbsp;
+			<button id="session-select" class="top-bar-button">
+				<span id="session-name">Session</span>
+				&nbsp;
+				<span class="fas fa-caret-down"></span>
+			</button>
+			<button id="shutdown-button" class="top-bar-button top-bar-button-right"><span class="fas fa-power-off"></span></button>
+			<button id="reboot-button" class="top-bar-button top-bar-button-right"><span class="fas fa-sync"></span></button>
+			<button id="settings-button" class="top-bar-button top-bar-button-right"><span class="fas fa-cog"></span></button>
+		</div>
+
+		<div id="settings-root" class="settings-root hidden">
+			<div id="wallpaper-switcher" class="wallpaper-switcher"></div>
+		</div>
+
+		<div id="clock-root" class="vertical-center-root clock-root">
+			<div class="horizontal-center-root">
+				<div id="time" class="time"></div>
+				<div id="date" class="date"></div>
+				<br><br><br>
+			</div>
+		</div>
+
+		<div id="login-box-root" class="vertical-center-root login-box-root hidden">
+			<div class="horizontal-center-root">
+				<div id="users" class="users"></div>
+
+				<input id="password-input" class="password-input" placeholder="password" type="password">
+
+				<div id="login-button-container" class="login-button-container hidden">
+					<button id="login-button" class="login-button">Login</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="fade" class="fade"></div>
+
+		<script src="index.js"></script>
+	</body>
+</html>

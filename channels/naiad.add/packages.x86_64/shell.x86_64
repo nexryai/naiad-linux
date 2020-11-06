@@ -1,0 +1,20 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+# Intaractive shell
+
+
+#-- lsd --#
+lsd
+lsd-control
+
+
+#-- Prompt --#
+powerline-go
+
+

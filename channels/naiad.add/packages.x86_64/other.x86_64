@@ -1,0 +1,56 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+
+
+#-- archiver --#
+xarchiver
+
+
+#-- GVFS --#
+gvfs
+gvfs-smb
+
+
+#-- boot manager --#
+# grub-theme-vimix-alter
+grub-theme-vimix
+grub-customizer
+
+
+#-- documents --#
+man-db
+man-pages
+
+
+
+#-- system monitor --#
+cpu-x
+gnome-system-monitor
+htop
+
+
+#-- pacman --#
+pamac-aur
+
+
+#-- printer --#
+system-config-printer
+
+
+
+#-- text editor --#
+mousepad
+nano
+vim
+
+
+#-- other --#
+ipad_charge
+snapd
+tlpui
