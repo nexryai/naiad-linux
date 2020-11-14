@@ -1,0 +1,18 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+
+pavucontrol
+pulseaudio
+blueman
+bluez
+bluez-utils
+pulseaudio-modules-bt
+
+viewnior
+parole

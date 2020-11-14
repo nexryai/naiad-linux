@@ -1,0 +1,51 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+
+gnome-backgrounds
+gnome-boxes
+gnome-calculator
+gnome-calendar
+gnome-control-center
+gnome-common
+gnome-desktop
+gnome-disk-utility
+gnome-keyring
+gnome-logs
+gnome-menus
+gnome-remote-desktop
+gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+gnome-system-monitor
+gnome-terminal
+mutter
+nautilus
+sushi
+
+dconf-editor
+gnome-tweaks
+chrome-gnome-shell
+gnome-shell-extension-extensions-git
+gnome-shell-extension-topicons-redux
+gdm
+gnome-bluetooth
+gnome-epub-thumbnailer
+papirus-icon-theme
+adapta-gtk-theme
+qt5ct
+qt5-styleplugins
+
+adobe-source-code-pro-fonts
+nerd-fonts-source-code-pro
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+

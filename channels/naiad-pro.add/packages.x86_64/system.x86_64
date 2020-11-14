@@ -1,0 +1,41 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+
+base-devel
+baobab
+clonezilla
+ddrescue
+dmraid
+fsarchiver
+gnome-disk-utility
+gparted
+gptfdisk
+hdparm
+lvm2
+mdadm
+nvme-cli
+partclone
+parted
+partimage
+sdparm
+smartmontools
+testdisk
+smbclient
+gvfs-mtp
+mtpfs
+gvfs
+gvfs-smb
+zsh
+zsh-autosuggestions
+zsh-completions
+zsh-history-substring-search
+zsh-syntax-highlighting
+powerline-go
+lsd
+lsd-control

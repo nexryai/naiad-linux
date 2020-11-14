@@ -1,0 +1,16 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+
+alterlinux-fcitx-conf
+# fcitx
+fcitx
+fcitx-configtool
+fcitx-mozc
+fcitx-qt5
+man-pages-ja

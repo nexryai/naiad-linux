@@ -1,0 +1,26 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+
+
+#-- connection --#
+network-manager-applet
+
+
+#-- mail client --#
+thunderbird
+# mailspring
+
+
+#-- web browser --#
+chromium
+
+
+#-- security --#
+firewalld
+ufw
