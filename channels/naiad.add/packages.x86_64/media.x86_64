@@ -23,6 +23,6 @@ pulseaudio-modules-bt
 
 
 #-- media player --#
-# viewnior
-# parole
-# gst-libav
+viewnior
+parole
+gst-libav
