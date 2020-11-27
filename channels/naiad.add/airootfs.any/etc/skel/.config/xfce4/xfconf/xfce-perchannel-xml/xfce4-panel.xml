@@ -7,7 +7,7 @@
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=8;x=96;y=1175"/>
       <property name="size" type="uint" value="35"/>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.000000"/>
         <value type="double" value="0.000000"/>
@@ -47,6 +47,7 @@
     </property>
     <property name="plugin-7" type="string" value="systray">
       <property name="names-ordered" type="array">
+        <value type="string" value="firewall-applet"/>
         <value type="string" value="thunar"/>
         <value type="string" value="bluetooth が有効"/>
         <value type="string" value="blueman-tray"/>

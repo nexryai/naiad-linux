@@ -12,6 +12,7 @@
 #-- audio --#
 pavucontrol
 pulseaudio
+pulseaudio-equalizer
 
 
 #-- bluetooth --#
