@@ -29,5 +29,5 @@ export UNZIPOPT=-OCP932
 # No beep
 xset -b
 
-# Start openbox-session
+# Start xfce-session
 exec startxfce4
