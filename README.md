@@ -1,5 +1,5 @@
 # naiad-linux
-Arch系LinuxであるAlter Linuxベースのxfceデスクトップ採用のエレガントで軽量でミニマルなLinux。AlterISO3を使用してビルドします。極度PR（しなさい）
+Arch系LinuxであるAlter Linuxベースのxfceデスクトップ採用のエレガントで軽量でミニマルなLinux。AlterISO3を使用してビルドします。究極の自己満足
 
 
 # ライセンス
