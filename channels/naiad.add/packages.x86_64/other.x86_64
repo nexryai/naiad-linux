@@ -30,13 +30,13 @@ man-pages
 
 
 #-- system monitor --#
-cpu-x
+# cpu-x
 gnome-system-monitor
 htop
 
 
 #-- pacman --#
-pamac-aur
+# pamac-aur
 
 
 #-- printer --#
@@ -51,7 +51,5 @@ vim
 
 
 #-- other --#
-ipad_charge
-snapd
-tlpui
+# ipad_charge
 dconf-editor

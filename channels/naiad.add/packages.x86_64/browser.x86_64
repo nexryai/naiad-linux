@@ -4,9 +4,9 @@
 # nexryai
 # Twitter: @nexryai
 #
-# (c) 2019-2020 naiad technology
+# (c) 2019-2021 naiad technology
 #
-# Internet
+# Internet Browsers
 
 
 #-- connection --#
@@ -14,4 +14,4 @@ network-manager-applet
 
 #-- web browser --#
 chromium
-# elinks
+wexond-appimage

@@ -1,0 +1,14 @@
+# 
+# naiad Linux package list
+#
+# nexryai 
+# Twitter: @nexryai
+#
+# (c) 2019-2021 naiad technology
+#
+# xanmod kernel
+
+linux-xanmod
+linux-xanmod-headers
+
+broadcom-wl-dkms

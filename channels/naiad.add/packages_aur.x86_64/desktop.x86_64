@@ -1,0 +1,13 @@
+#
+# naiad Linux package list
+#
+# nexryai
+# Twitter: @nexryai
+#
+# (c) 2019-2020 naiad technology
+#
+# Xfce4 Desktop Environment
+
+xfce4-calculator-plugin
+xfce4-docklike-plugin-git
+xfce4-dev-tools-devel

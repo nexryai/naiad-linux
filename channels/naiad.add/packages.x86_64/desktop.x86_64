@@ -4,7 +4,7 @@
 # nexryai
 # Twitter: @nexryai
 #
-# (c) 2019-2020 naiad technology
+# (c) 2019-2021 naiad technology
 #
 #  Desktop Environment
 
@@ -29,9 +29,7 @@ gala
 xfwm4-themes
 thunar-archive-plugin
 thunar-media-tags-plugin
-xfce4-calculator-plugin
 xfce4-clipman-plugin
-xfce4-docklike-plugin-git
 xfce4-pulseaudio-plugin
 xfce4-whiskermenu-plugin
 qt5ct

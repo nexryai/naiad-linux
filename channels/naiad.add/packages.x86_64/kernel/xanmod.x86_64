@@ -6,6 +6,9 @@
 #
 # (c) 2019-2021 naiad technology
 #
-# packages for naiad sync script
+# xanmod kernel
 
-gdrive
+linux-xanmod
+linux-xanmod-headers
+
+broadcom-wl-dkms
