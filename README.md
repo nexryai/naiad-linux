@@ -1,5 +1,5 @@
 # naiad-linux
-xfceデスクトップ採用のエレガントで軽量でミニマルなLinux。AlterISO3かLFBSを使用してビルドします。究極の自己満足
+xfceデスクトップ採用のエレガントで使いやすくミニマルなLinux。AlterISO3かLFBSを使用してビルドします。究極の自己満足
 
 
 # ビルド方法
