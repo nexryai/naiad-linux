@@ -33,6 +33,7 @@ man-pages
 # cpu-x
 gnome-system-monitor
 htop
+bashtop
 
 
 #-- pacman --#
