@@ -8,10 +8,3 @@ Arch系LinuxであるAlter Linuxベースのxfceデスクトップ採用のエ�
 GNU GPL 3
 
 **完全な無保証で使用は自己責任です**
-
-## 各ブランチの説明
-|  naiad-linux-alteriso   |  naiad-linux-alteriso3  |
-|          ----           |           ----          |
-|  AlterISO2              |  AlterISO3              |
-|  安定 - 推奨           　 | 開発中 -　推奨されません    |
-
