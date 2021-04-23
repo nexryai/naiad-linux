@@ -1,10 +1,10 @@
 # naiad-linux
-xfceデスクトップ採用のエレガントで使いやすくミニマルなLinux。AlterISO3かkiwiを使用してビルドします。究極の自己満足
+xfceデスクトップ採用のエレガントで使いやすくミニマルなLinux。LFBSかAlterISO3を使用してビルドします。究極の自己満足
 
 
 # ビルド方法
 
-## kiwi(OpenSUSEベース版）
+## LUBS_F (Fedoraベース版）
 現在準備中です
 
 ## AlterISOチャンネル
